@@ -37,10 +37,27 @@
         }
 
         .navbar {
-            background-image: url('img/capa2.png'); /* Substitua pelo caminho da sua imagem */
-            background-size: cover; /* Ajusta o tamanho da imagem para cobrir toda a navbar */
-            color: white; /* Cor do texto na navbar */
+            background-image: url('img/capa2.png');
+            /* Substitua pelo caminho da sua imagem */
+            background-size: cover;
+            /* Ajusta o tamanho da imagem para cobrir toda a navbar */
+            color: white;
+            /* Cor do texto na navbar */
             height: 600px;
+            font-family: 'Courier New', Courier, monospace;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: 'Times New Roman', Times, serif;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            /* font-family: Arial, Helvetica, sans-serif; */
+            /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+            /* font-family: Georgia, 'Times New Roman', Times, serif; */
+            /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+            /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+            /* font-family: cursive; */
+            /* font-family: fantasy; */
         }
     </style>
 </head>
@@ -48,11 +65,15 @@
 <body>
     <nav class="navbar navbar-light bg-light" id="navbar">
         <div class="container" style="padding-top: 200px;">
-            <a class="navbar-brand fs-1 mx-auto text-white font-monospace" href="#">Bar do Colombiano</a>
-            <div class="categorias-produtos nav d-flex justify-content-center w-100">
+            <a class="navbar-brand mx-auto text-white" style="font-size: 4rem;" href="#">BAR DO COLOMBIANO</a>
+            <div class="categorias-produtos nav d-flex justify-content-center w-100 pt-5">
+                <!-- Seus links de categoria aqui -->
             </div>
+            <!-- Adicionando a linha horizontal -->
+            <hr class="w-100">
         </div>
     </nav>
+
 
     <div class="container mt-5 pt-5 pb-5 mb-5">
         <div id="produtos-por-categoria" class="row"></div>
@@ -64,9 +85,10 @@
     </a>
 
     <!-- Botão flutuante com dropdown -->
-    <div class="dropdown dropup floating-btn" style="bottom: 200px; width: 60px; height: 20px;" id="floatingBtnCategorias">
-        <button class="btn btn-outline-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown"
-            aria-expanded="false">
+    <div class="dropdown dropup floating-btn" style="bottom: 200px; width: 60px; height: 20px;"
+        id="floatingBtnCategorias">
+        <button class="btn btn-outline-primary dropdown-toggle" type="button" id="dropdownMenuButton"
+            data-bs-toggle="dropdown" aria-expanded="false">
             <i class="fa-solid fa-table fs-4"></i>
         </button>
         <ul class="dropdown-menu floating-btn-categorias" aria-labelledby="dropdownMenuButton">
