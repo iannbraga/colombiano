@@ -1,0 +1,27 @@
+.bg-whatsapp {
+    color: rgb(9, 197, 9);
+}
+
+.bg-instagram {
+    color: rgb(230, 83, 168);
+}
+
+.navbar-bg {
+    background-image: url('img/capa2.png');
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    position: relative;
+}
+
+.navbar-nav {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+.navlink {}
+
+.navlink:hover {
+    border-bottom: 1px solid white;
+}
