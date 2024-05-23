@@ -1,0 +1,632 @@
+[
+    {
+        "id": 1,
+        "nome": "Ficha de Sinuca",
+        "preco": "2.50",
+        "estoque": 994,
+        "categoria": "Outros",
+        "icone": "fa-solid fa-compact-disc",
+        "created_at": "2024-05-23T00:23:26.218Z",
+        "updated_at": "2024-05-23T03:45:39.600Z"
+    },
+    {
+        "id": 2,
+        "nome": "Ficha de Música",
+        "preco": "1.00",
+        "estoque": 1000,
+        "categoria": "Outros",
+        "icone": "fa-solid fa-music",
+        "created_at": "2024-05-23T00:23:26.222Z",
+        "updated_at": "2024-05-23T00:23:26.907Z"
+    },
+    {
+        "id": 3,
+        "nome": "Antártica 269ml",
+        "preco": "4.00",
+        "estoque": 1000,
+        "categoria": "Cerveja",
+        "icone": "fa-solid fa-beer-mug-empty",
+        "created_at": "2024-05-23T00:23:26.226Z",
+        "updated_at": "2024-05-23T00:23:26.911Z"
+    },
+    {
+        "id": 4,
+        "nome": "Antártica 350ml",
+        "preco": "5.00",
+        "estoque": 1000,
+        "categoria": "Cerveja",
+        "icone": "fa-solid fa-beer-mug-empty",
+        "created_at": "2024-05-23T00:23:26.229Z",
+        "updated_at": "2024-05-23T00:23:26.915Z"
+    },
+    {
+        "id": 5,
+        "nome": "Antártica 600ml",
+        "preco": "10.00",
+        "estoque": 989,
+        "categoria": "Cerveja",
+        "icone": "fa-solid fa-beer-mug-empty",
+        "created_at": "2024-05-23T00:23:26.233Z",
+        "updated_at": "2024-05-23T03:45:20.658Z"
+    },
+    {
+        "id": 6,
+        "nome": "Original 269ml",
+        "preco": "4.00",
+        "estoque": 1000,
+        "categoria": "Cerveja",
+        "icone": "fa-solid fa-beer-mug-empty",
+        "created_at": "2024-05-23T00:23:26.237Z",
+        "updated_at": "2024-05-23T00:23:26.921Z"
+    },
+    {
+        "id": 7,
+        "nome": "Original 600ml",
+        "preco": "12.00",
+        "estoque": 1000,
+        "categoria": "Cerveja",
+        "icone": "fa-solid fa-beer-mug-empty",
+        "created_at": "2024-05-23T00:23:26.243Z",
+        "updated_at": "2024-05-23T00:23:26.925Z"
+    },
+    {
+        "id": 8,
+        "nome": "Heineken 269ml",
+        "preco": "7.00",
+        "estoque": 1000,
+        "categoria": "Cerveja",
+        "icone": "fa-solid fa-beer-mug-empty",
+        "created_at": "2024-05-23T00:23:26.248Z",
+        "updated_at": "2024-05-23T00:23:26.930Z"
+    },
+    {
+        "id": 9,
+        "nome": "Heineken Long",
+        "preco": "10.00",
+        "estoque": 1000,
+        "categoria": "Cerveja",
+        "icone": "fa-solid fa-beer-mug-empty",
+        "created_at": "2024-05-23T00:23:26.252Z",
+        "updated_at": "2024-05-23T00:23:26.934Z"
+    },
+    {
+        "id": 10,
+        "nome": "Heineken 600ml",
+        "preco": "15.00",
+        "estoque": 1000,
+        "categoria": "Cerveja",
+        "icone": "fa-solid fa-beer-mug-empty",
+        "created_at": "2024-05-23T00:23:26.257Z",
+        "updated_at": "2024-05-23T00:23:26.938Z"
+    },
+    {
+        "id": 11,
+        "nome": "Heineken Zero",
+        "preco": "12.00",
+        "estoque": 1000,
+        "categoria": "Cerveja",
+        "icone": "fa-solid fa-beer-mug-empty",
+        "created_at": "2024-05-23T00:23:26.262Z",
+        "updated_at": "2024-05-23T00:23:26.941Z"
+    },
+    {
+        "id": 12,
+        "nome": "Amstel 269ml",
+        "preco": "5.00",
+        "estoque": 1000,
+        "categoria": "Cerveja",
+        "icone": "fa-solid fa-beer-mug-empty",
+        "created_at": "2024-05-23T00:23:26.267Z",
+        "updated_at": "2024-05-23T00:23:26.945Z"
+    },
+    {
+        "id": 13,
+        "nome": "Amstel 600ml",
+        "preco": "14.00",
+        "estoque": 1000,
+        "categoria": "Cerveja",
+        "icone": "fa-solid fa-beer-mug-empty",
+        "created_at": "2024-05-23T00:23:26.272Z",
+        "updated_at": "2024-05-23T00:23:26.950Z"
+    },
+    {
+        "id": 14,
+        "nome": "Budweiser Long",
+        "preco": "10.00",
+        "estoque": 1000,
+        "categoria": "Cerveja",
+        "icone": "fa-solid fa-beer-mug-empty",
+        "created_at": "2024-05-23T00:23:26.277Z",
+        "updated_at": "2024-05-23T00:23:26.954Z"
+    },
+    {
+        "id": 15,
+        "nome": "Budweiser 269ml",
+        "preco": "5.00",
+        "estoque": 1000,
+        "categoria": "Cerveja",
+        "icone": "fa-solid fa-beer-mug-empty",
+        "created_at": "2024-05-23T00:23:26.284Z",
+        "updated_at": "2024-05-23T00:23:26.958Z"
+    },
+    {
+        "id": 16,
+        "nome": "Budweiser 600ml",
+        "preco": "12.00",
+        "estoque": 1000,
+        "categoria": "Cerveja",
+        "icone": "fa-solid fa-beer-mug-empty",
+        "created_at": "2024-05-23T00:23:26.289Z",
+        "updated_at": "2024-05-23T00:23:26.962Z"
+    },
+    {
+        "id": 17,
+        "nome": "Corona Latão",
+        "preco": "7.00",
+        "estoque": 1000,
+        "categoria": "Cerveja",
+        "icone": "fa-solid fa-beer-mug-empty",
+        "created_at": "2024-05-23T00:23:26.295Z",
+        "updated_at": "2024-05-23T00:23:26.965Z"
+    },
+    {
+        "id": 18,
+        "nome": "Corona Long",
+        "preco": "10.00",
+        "estoque": 1000,
+        "categoria": "Cerveja",
+        "icone": "fa-solid fa-beer-mug-empty",
+        "created_at": "2024-05-23T00:23:26.306Z",
+        "updated_at": "2024-05-23T00:23:26.969Z"
+    },
+    {
+        "id": 19,
+        "nome": "Brahama 600ml",
+        "preco": "9.00",
+        "estoque": 1000,
+        "categoria": "Cerveja",
+        "icone": "fa-solid fa-beer-mug-empty",
+        "created_at": "2024-05-23T00:23:26.313Z",
+        "updated_at": "2024-05-23T00:23:26.972Z"
+    },
+    {
+        "id": 20,
+        "nome": "Brahama Zero",
+        "preco": "7.00",
+        "estoque": 1000,
+        "categoria": "Cerveja",
+        "icone": "fa-solid fa-beer-mug-empty",
+        "created_at": "2024-05-23T00:23:26.320Z",
+        "updated_at": "2024-05-23T00:23:26.975Z"
+    },
+    {
+        "id": 21,
+        "nome": "Kaiser 350ml",
+        "preco": "4.00",
+        "estoque": 1000,
+        "categoria": "Cerveja",
+        "icone": "fa-solid fa-beer-mug-empty",
+        "created_at": "2024-05-23T00:23:26.326Z",
+        "updated_at": "2024-05-23T00:23:26.979Z"
+    },
+    {
+        "id": 22,
+        "nome": "Skol 269ml",
+        "preco": "4.00",
+        "estoque": 1000,
+        "categoria": "Cerveja",
+        "icone": "fa-solid fa-beer-mug-empty",
+        "created_at": "2024-05-23T00:23:26.334Z",
+        "updated_at": "2024-05-23T00:23:26.982Z"
+    },
+    {
+        "id": 23,
+        "nome": "Água c/ gás",
+        "preco": "0.00",
+        "estoque": 1000,
+        "categoria": "Bebidas",
+        "icone": "fa-solid fa-bottle-water",
+        "created_at": "2024-05-23T00:23:26.342Z",
+        "updated_at": "2024-05-23T00:23:26.985Z"
+    },
+    {
+        "id": 24,
+        "nome": "Água s/ gás",
+        "preco": "0.00",
+        "estoque": 1000,
+        "categoria": "Bebidas",
+        "icone": "fa-solid fa-bottle-water",
+        "created_at": "2024-05-23T00:23:26.351Z",
+        "updated_at": "2024-05-23T00:23:26.989Z"
+    },
+    {
+        "id": 25,
+        "nome": "Coca 350ml",
+        "preco": "0.00",
+        "estoque": 1000,
+        "categoria": "Bebidas",
+        "icone": "fa-solid fa-bottle-water",
+        "created_at": "2024-05-23T00:23:26.360Z",
+        "updated_at": "2024-05-23T00:23:26.992Z"
+    },
+    {
+        "id": 26,
+        "nome": "Coca KS",
+        "preco": "0.00",
+        "estoque": 1000,
+        "categoria": "Bebidas",
+        "icone": "fa-solid fa-bottle-water",
+        "created_at": "2024-05-23T00:23:26.368Z",
+        "updated_at": "2024-05-23T00:23:26.995Z"
+    },
+    {
+        "id": 27,
+        "nome": "Coca 600ml",
+        "preco": "0.00",
+        "estoque": 1000,
+        "categoria": "Bebidas",
+        "icone": "fa-solid fa-bottle-water",
+        "created_at": "2024-05-23T00:23:26.374Z",
+        "updated_at": "2024-05-23T00:23:26.999Z"
+    },
+    {
+        "id": 28,
+        "nome": "Coca 1L",
+        "preco": "0.00",
+        "estoque": 1000,
+        "categoria": "Bebidas",
+        "icone": "fa-solid fa-bottle-water",
+        "created_at": "2024-05-23T00:23:26.380Z",
+        "updated_at": "2024-05-23T00:23:27.002Z"
+    },
+    {
+        "id": 29,
+        "nome": "Coca 2L",
+        "preco": "0.00",
+        "estoque": 1000,
+        "categoria": "Bebidas",
+        "icone": "fa-solid fa-bottle-water",
+        "created_at": "2024-05-23T00:23:26.386Z",
+        "updated_at": "2024-05-23T00:23:27.005Z"
+    },
+    {
+        "id": 30,
+        "nome": "Guaraná 1L",
+        "preco": "0.00",
+        "estoque": 1000,
+        "categoria": "Bebidas",
+        "icone": "fa-solid fa-bottle-water",
+        "created_at": "2024-05-23T00:23:26.395Z",
+        "updated_at": "2024-05-23T00:23:27.009Z"
+    },
+    {
+        "id": 31,
+        "nome": "Guaraná 2L",
+        "preco": "0.00",
+        "estoque": 1000,
+        "categoria": "Bebidas",
+        "icone": "fa-solid fa-bottle-water",
+        "created_at": "2024-05-23T00:23:26.401Z",
+        "updated_at": "2024-05-23T00:23:27.012Z"
+    },
+    {
+        "id": 32,
+        "nome": "Sukita 600ml",
+        "preco": "0.00",
+        "estoque": 1000,
+        "categoria": "Bebidas",
+        "icone": "fa-solid fa-bottle-water",
+        "created_at": "2024-05-23T00:23:26.407Z",
+        "updated_at": "2024-05-23T00:23:27.017Z"
+    },
+    {
+        "id": 33,
+        "nome": "Tônica Lata",
+        "preco": "0.00",
+        "estoque": 1000,
+        "categoria": "Bebidas",
+        "icone": "fa-solid fa-bottle-water",
+        "created_at": "2024-05-23T00:23:26.413Z",
+        "updated_at": "2024-05-23T00:23:27.021Z"
+    },
+    {
+        "id": 34,
+        "nome": "Gatorede",
+        "preco": "0.00",
+        "estoque": 1000,
+        "categoria": "Bebidas",
+        "icone": "fa-solid fa-bottle-water",
+        "created_at": "2024-05-23T00:23:26.419Z",
+        "updated_at": "2024-05-23T00:23:27.024Z"
+    },
+    {
+        "id": 35,
+        "nome": "H2O Lata",
+        "preco": "0.00",
+        "estoque": 1000,
+        "categoria": "Bebidas",
+        "icone": "fa-solid fa-bottle-water",
+        "created_at": "2024-05-23T00:23:26.426Z",
+        "updated_at": "2024-05-23T00:23:27.028Z"
+    },
+    {
+        "id": 36,
+        "nome": "Suco 1L",
+        "preco": "0.00",
+        "estoque": 1000,
+        "categoria": "Bebidas",
+        "icone": "fa-solid fa-bottle-water",
+        "created_at": "2024-05-23T00:23:26.432Z",
+        "updated_at": "2024-05-23T00:23:27.032Z"
+    },
+    {
+        "id": 37,
+        "nome": "Água de Coco",
+        "preco": "0.00",
+        "estoque": 1000,
+        "categoria": "Bebidas",
+        "icone": "fa-solid fa-bottle-water",
+        "created_at": "2024-05-23T00:23:26.438Z",
+        "updated_at": "2024-05-23T00:23:27.035Z"
+    },
+    {
+        "id": 38,
+        "nome": "Monster",
+        "preco": "0.00",
+        "estoque": 1000,
+        "categoria": "Bebidas",
+        "icone": "fa-solid fa-bottle-water",
+        "created_at": "2024-05-23T00:23:26.444Z",
+        "updated_at": "2024-05-23T00:23:27.039Z"
+    },
+    {
+        "id": 39,
+        "nome": "Redbull",
+        "preco": "0.00",
+        "estoque": 1000,
+        "categoria": "Bebidas",
+        "icone": "fa-solid fa-bottle-water",
+        "created_at": "2024-05-23T00:23:26.449Z",
+        "updated_at": "2024-05-23T00:23:27.043Z"
+    },
+    {
+        "id": 40,
+        "nome": "FireNigth",
+        "preco": "0.00",
+        "estoque": 1000,
+        "categoria": "Bebidas",
+        "icone": "fa-solid fa-bottle-water",
+        "created_at": "2024-05-23T00:23:26.457Z",
+        "updated_at": "2024-05-23T00:23:27.048Z"
+    },
+    {
+        "id": 41,
+        "nome": "Dreher",
+        "preco": "4.00",
+        "estoque": 1000,
+        "categoria": "Dose",
+        "icone": "fa-solid fa-whiskey-glass",
+        "created_at": "2024-05-23T00:23:26.464Z",
+        "updated_at": "2024-05-23T00:23:27.053Z"
+    },
+    {
+        "id": 42,
+        "nome": "Ballantinos",
+        "preco": "4.00",
+        "estoque": 1000,
+        "categoria": "Dose",
+        "icone": "fa-solid fa-whiskey-glass",
+        "created_at": "2024-05-23T00:23:26.471Z",
+        "updated_at": "2024-05-23T00:23:27.058Z"
+    },
+    {
+        "id": 43,
+        "nome": "Passaporte",
+        "preco": "4.00",
+        "estoque": 1000,
+        "categoria": "Dose",
+        "icone": "fa-solid fa-whiskey-glass",
+        "created_at": "2024-05-23T00:23:26.477Z",
+        "updated_at": "2024-05-23T00:23:27.062Z"
+    },
+    {
+        "id": 44,
+        "nome": "Montila",
+        "preco": "4.00",
+        "estoque": 1000,
+        "categoria": "Dose",
+        "icone": "fa-solid fa-whiskey-glass",
+        "created_at": "2024-05-23T00:23:26.484Z",
+        "updated_at": "2024-05-23T00:23:27.065Z"
+    },
+    {
+        "id": 45,
+        "nome": "Jurupinga",
+        "preco": "4.00",
+        "estoque": 1000,
+        "categoria": "Dose",
+        "icone": "fa-solid fa-whiskey-glass",
+        "created_at": "2024-05-23T00:23:26.489Z",
+        "updated_at": "2024-05-23T00:23:27.068Z"
+    },
+    {
+        "id": 46,
+        "nome": "José Cuervo",
+        "preco": "4.00",
+        "estoque": 1000,
+        "categoria": "Dose",
+        "icone": "fa-solid fa-whiskey-glass",
+        "created_at": "2024-05-23T00:23:26.496Z",
+        "updated_at": "2024-05-23T00:23:27.071Z"
+    },
+    {
+        "id": 47,
+        "nome": "Paratudo",
+        "preco": "4.00",
+        "estoque": 1000,
+        "categoria": "Dose",
+        "icone": "fa-solid fa-whiskey-glass",
+        "created_at": "2024-05-23T00:23:26.502Z",
+        "updated_at": "2024-05-23T00:23:27.075Z"
+    },
+    {
+        "id": 48,
+        "nome": "Domus",
+        "preco": "4.00",
+        "estoque": 1000,
+        "categoria": "Dose",
+        "icone": "fa-solid fa-whiskey-glass",
+        "created_at": "2024-05-23T00:23:26.509Z",
+        "updated_at": "2024-05-23T00:23:27.078Z"
+    },
+    {
+        "id": 49,
+        "nome": "Cachaça de Murici",
+        "preco": "4.00",
+        "estoque": 1000,
+        "categoria": "Dose",
+        "icone": "fa-solid fa-whiskey-glass",
+        "created_at": "2024-05-23T00:23:26.516Z",
+        "updated_at": "2024-05-23T00:23:27.081Z"
+    },
+    {
+        "id": 50,
+        "nome": "Cachaça de Abacaxi",
+        "preco": "4.00",
+        "estoque": 1000,
+        "categoria": "Dose",
+        "icone": "fa-solid fa-whiskey-glass",
+        "created_at": "2024-05-23T00:23:26.522Z",
+        "updated_at": "2024-05-23T00:23:27.084Z"
+    },
+    {
+        "id": 51,
+        "nome": "Cachaça de Caja",
+        "preco": "4.00",
+        "estoque": 1000,
+        "categoria": "Dose",
+        "icone": "fa-solid fa-whiskey-glass",
+        "created_at": "2024-05-23T00:23:26.529Z",
+        "updated_at": "2024-05-23T00:23:27.088Z"
+    },
+    {
+        "id": 52,
+        "nome": "Cachaça de Pimenta",
+        "preco": "4.00",
+        "estoque": 1000,
+        "categoria": "Dose",
+        "icone": "fa-solid fa-whiskey-glass",
+        "created_at": "2024-05-23T00:23:26.534Z",
+        "updated_at": "2024-05-23T00:23:27.091Z"
+    },
+    {
+        "id": 53,
+        "nome": "Torcida",
+        "preco": "7.00",
+        "estoque": 1000,
+        "categoria": "Salgados",
+        "icone": "fa-solid fa-cookie-bite",
+        "created_at": "2024-05-23T00:23:26.541Z",
+        "updated_at": "2024-05-23T00:23:27.094Z"
+    },
+    {
+        "id": 54,
+        "nome": "Micos",
+        "preco": "3.00",
+        "estoque": 1000,
+        "categoria": "Salgados",
+        "icone": "fa-solid fa-cookie-bite",
+        "created_at": "2024-05-23T00:23:26.547Z",
+        "updated_at": "2024-05-23T00:23:27.098Z"
+    },
+    {
+        "id": 55,
+        "nome": "Micão",
+        "preco": "4.00",
+        "estoque": 1000,
+        "categoria": "Salgados",
+        "icone": "fa-solid fa-cookie-bite",
+        "created_at": "2024-05-23T00:23:26.552Z",
+        "updated_at": "2024-05-23T00:23:27.101Z"
+    },
+    {
+        "id": 56,
+        "nome": "Torresmo",
+        "preco": "7.00",
+        "estoque": 1000,
+        "categoria": "Salgados",
+        "icone": "fa-solid fa-cookie-bite",
+        "created_at": "2024-05-23T00:23:26.557Z",
+        "updated_at": "2024-05-23T00:23:27.105Z"
+    },
+    {
+        "id": 57,
+        "nome": "Fritas simples",
+        "preco": "28.00",
+        "estoque": 1000,
+        "categoria": "Porções",
+        "icone": "fa-solid fa-utensils",
+        "created_at": "2024-05-23T00:23:26.562Z",
+        "updated_at": "2024-05-23T00:23:27.108Z"
+    },
+    {
+        "id": 58,
+        "nome": "Fritas c/ calabresa",
+        "preco": "35.00",
+        "estoque": 1000,
+        "categoria": "Porções",
+        "icone": "fa-solid fa-utensils",
+        "created_at": "2024-05-23T00:23:26.566Z",
+        "updated_at": "2024-05-23T00:23:27.112Z"
+    },
+    {
+        "id": 59,
+        "nome": "Fritas c/ calabresa e cheddar",
+        "preco": "40.00",
+        "estoque": 1000,
+        "categoria": "Porções",
+        "icone": "fa-solid fa-utensils",
+        "created_at": "2024-05-23T00:23:26.570Z",
+        "updated_at": "2024-05-23T00:23:27.115Z"
+    },
+    {
+        "id": 60,
+        "nome": "Frango à passarinho",
+        "preco": "38.00",
+        "estoque": 1000,
+        "categoria": "Porções",
+        "icone": "fa-solid fa-utensils",
+        "created_at": "2024-05-23T00:23:26.573Z",
+        "updated_at": "2024-05-23T00:23:27.119Z"
+    },
+    {
+        "id": 61,
+        "nome": "Frango à passarinho c/ calabresa",
+        "preco": "42.00",
+        "estoque": 1000,
+        "categoria": "Porções",
+        "icone": "fa-solid fa-utensils",
+        "created_at": "2024-05-23T00:23:26.577Z",
+        "updated_at": "2024-05-23T00:23:27.122Z"
+    },
+    {
+        "id": 62,
+        "nome": "Frango à passarinho completo",
+        "preco": "55.00",
+        "estoque": 1000,
+        "categoria": "Porções",
+        "icone": "fa-solid fa-utensils",
+        "created_at": "2024-05-23T00:23:26.582Z",
+        "updated_at": "2024-05-23T00:23:27.126Z"
+    },
+    {
+        "id": 63,
+        "nome": "Calabresa acebolada",
+        "preco": "20.00",
+        "estoque": 1000,
+        "categoria": "Porções",
+        "icone": "fa-solid fa-utensils",
+        "created_at": "2024-05-23T00:23:26.588Z",
+        "updated_at": "2024-05-23T00:23:27.130Z"
+    }
+]

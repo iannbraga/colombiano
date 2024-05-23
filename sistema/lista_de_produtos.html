@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista de Produtos</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <ul class="list-unstyled">
+    <li><a class="nav-link" href="detalhes_da_comanda.html">Detalhes da comanda</a></li>
+    <li><a class="nav-link" href="detalhes_da_venda.html">Detalhes da venda</a></li>
+    <li><a class="nav-link" href="detalhes_do_pedido.html">Detalhes do pedido</a></li>
+    <li><a class="nav-link" href="detalhes_do_produto.html">Detalhes do produto</a></li>
+    <li><a class="nav-link" href="lista_de_comandas.html">Lista de comandas</a></li>
+    <li><a class="nav-link" href="lista_de_pedidos.html">Lista de pedidos</a></li>
+    <li><a class="nav-link" href="lista_de_produtos.html">Lista de produtos</a></li>
+    <li><a class="nav-link" href="lista_de_vendas.html">Lista de vendas</a></li>
+  </ul>
+
+  <div class="container mt-5">
+    <h1 class="mb-4">Lista de Produtos</h1>
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Ícone</th>
+          <th>Nome</th>
+          <th>Preço</th>
+          <th>Categoria</th>
+          <th>Ações</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Exemplo de produto -->
+        <tr>
+          <td><img src="icone_produto.png" alt="Ícone do Produto" width="50"></td>
+          <td>Produto 1</td>
+          <td>R$ 10,00</td>
+          <td>Categoria 1</td>
+          <td>
+            <a href="detalhes_produto.html" class="btn btn-info btn-sm">Ver</a>
+            <a href="editar_produto.html" class="btn btn-warning btn-sm">Editar</a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <a href="adicionar_produto.html" class="btn btn-primary">Adicionar Produto</a>
+  </div>
+</body>
+
+</html>
