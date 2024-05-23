@@ -15,7 +15,7 @@
             /* Distância do fundo da página */
             bottom: 100px;
             /* Distância da direita da página */
-            right: 100px;
+            right: 50px;
             border: none;
             /* Torna o botão redondo */
             border-radius: 50%;
@@ -28,44 +28,85 @@
             cursor: pointer;
             transition: background-color 0.3s ease;
             /* Use flexbox para alinhar o conteúdo */
-            display: flex;
+            display: none;
+            /* Inicialmente oculto */
             /* Alinhe horizontalmente */
             justify-content: center;
             /* Alinhe verticalmente */
             align-items: center;
+        }
+
+        .navbar {
+            background-image: url('img/capa2.png'); /* Substitua pelo caminho da sua imagem */
+            background-size: cover; /* Ajusta o tamanho da imagem para cobrir toda a navbar */
+            color: white; /* Cor do texto na navbar */
+            height: 600px;
         }
     </style>
 </head>
 
 <body>
     <nav class="navbar navbar-light bg-light" id="navbar">
-        <div class="container">
-            <a class="navbar-brand mx-auto" href="#">Nome do Bar</a>
-        </div>
-        <div class="container">
+        <div class="container" style="padding-top: 200px;">
+            <a class="navbar-brand fs-1 mx-auto text-white font-monospace" href="#">Bar do Colombiano</a>
             <div class="categorias-produtos nav d-flex justify-content-center w-100">
             </div>
         </div>
     </nav>
 
-    <div class="container mt-5 pt-5">
+    <div class="container mt-5 pt-5 pb-5 mb-5">
         <div id="produtos-por-categoria" class="row"></div>
     </div>
 
-    <a href="#navbar" class="btn btn-primary floating-btn">
-        <i class="fa-solid fa-arrow-up-long fs-4"></i>
+    <!-- Botão flutuante para rolar para o topo -->
+    <a href="#navbar" class="btn btn-primary floating-btn fs-4" id="floatingBtnBackToUp">
+        <i class="fa-solid fa-arrow-up-long mt-2"></i>
     </a>
+
+    <!-- Botão flutuante com dropdown -->
+    <div class="dropdown dropup floating-btn" style="bottom: 200px; width: 60px; height: 20px;" id="floatingBtnCategorias">
+        <button class="btn btn-outline-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            <i class="fa-solid fa-table fs-4"></i>
+        </button>
+        <ul class="dropdown-menu floating-btn-categorias" aria-labelledby="dropdownMenuButton">
+
+        </ul>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"
         integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
-        </script>
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
-        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous">
-        </script>
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
     <script src="js/script.js"></script>
+    <script>
+        $(document).ready(function () {
+            // Monitora o evento de rolagem da página
+            $(window).scroll(function () {
+                // Verifica se o usuário rolou a página para baixo
+                if ($(this).scrollTop() > 100) { // Altere 100 para a quantidade de pixels que desejar
+                    // Se sim, mostra o botão flutuante para rolar para o topo
+                    $('#floatingBtnBackToUp').fadeIn();
+                } else {
+                    // Se não, esconde o botão flutuante para rolar para o topo
+                    $('#floatingBtnBackToUp').fadeOut();
+                }
 
+                // Verifica se o usuário rolou a página para baixo
+                if ($(this).scrollTop() > 300) { // Altere 200 para a quantidade de pixels que desejar
+                    // Se sim, mostra o botão flutuante com dropdown
+                    $('#floatingBtnCategorias').fadeIn();
+                } else {
+                    // Se não, esconde o botão flutuante com dropdown
+                    $('#floatingBtnCategorias').fadeOut();
+                }
+            });
+        });
+    </script>
 </body>
 
 </html>

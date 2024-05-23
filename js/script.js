@@ -20,12 +20,20 @@ $(document).ready(function () {
         let categoriasProdutos = $('.categorias-produtos');
         categoriasProdutos.empty();
 
+        let categoriasProdutosFloatingBtn = $('.floating-btn-categorias')
+        categoriasProdutosFloatingBtn.empty();
+
         for (let categoria in produtosPorCategoria) {
             let categoriaNavItem = `
-            <a class="nav-link text-black-50" href="#${categoria.replace(/\s+/g, '-')}">
+            <a class="nav-link text-white fs-5 font-monospace" href="#${categoria.replace(/\s+/g, '-')}">
             ${categoria}
             </a>`
             categoriasProdutos.append(categoriaNavItem);
+
+            let categoriaFloatItem = `
+            <li><a class="dropdown-item" href="#${categoria.replace(/\s+/g, '-')}">${categoria}</a></li>`
+            categoriasProdutosFloatingBtn.append(categoriaFloatItem);
+
 
             let categoriaDiv = $('<div id="' + categoria.replace(/\s+/g, '-') + '" class="col-12"></div>');
             
