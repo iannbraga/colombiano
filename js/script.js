@@ -44,7 +44,7 @@ $(document).ready(function () {
             produtosPorCategoria[categoria].forEach(function (produto) {
                 let produtoCard = `
                     <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-                        <div class="card" style="height: 350px;">
+                        <div class="card" style="">
                             <div class="card-body text-center">
                                 ${produto.image ? 
                                     `<img src="${produto.image}" class="img-fluid mb-${produto.nome == 'Redbull' ? '0':'4'} "/>` 
