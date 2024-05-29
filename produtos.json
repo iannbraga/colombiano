@@ -281,7 +281,7 @@
     {
         "id": 32,
         "nome": "Sukita 600ml",
-        "preco": 6.00",
+        "preco": "6.00",
         "estoque": 1000,
         "categoria": "Bebidas",
         "icone": "fa-solid fa-bottle-water",
@@ -353,7 +353,7 @@
     {
         "id": 40,
         "nome": "FireNigth",
-        "preco": 10.00",
+        "preco": "10.00",
         "estoque": 1000,
         "categoria": "Bebidas",
         "icone": "fa-solid fa-bottle-water",
