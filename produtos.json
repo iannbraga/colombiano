@@ -110,7 +110,7 @@
     {
         "id": 13,
         "nome": "Amstel 600ml",
-        "preco": "14.00",
+        "preco": "12.00",
         "estoque": 1000,
         "categoria": "Cerveja",
         "icone": "fa-solid fa-beer-mug-empty",
@@ -200,7 +200,7 @@
     {
         "id": 23,
         "nome": "Água c/ gás",
-        "preco": "0.00",
+        "preco": "5.00",
         "estoque": 1000,
         "categoria": "Bebidas",
         "icone": "fa-solid fa-bottle-water",
@@ -209,7 +209,7 @@
     {
         "id": 24,
         "nome": "Água s/ gás",
-        "preco": "0.00",
+        "preco": "4.00",
         "estoque": 1000,
         "categoria": "Bebidas",
         "icone": "fa-solid fa-bottle-water",
@@ -218,7 +218,7 @@
     {
         "id": 25,
         "nome": "Coca 350ml",
-        "preco": "0.00",
+        "preco": "5.00",
         "estoque": 1000,
         "categoria": "Bebidas",
         "icone": "fa-solid fa-bottle-water",
@@ -227,7 +227,7 @@
     {
         "id": 26,
         "nome": "Coca KS",
-        "preco": "0.00",
+        "preco": "5.00",
         "estoque": 1000,
         "categoria": "Bebidas",
         "icone": "fa-solid fa-bottle-water",
@@ -236,7 +236,7 @@
     {
         "id": 27,
         "nome": "Coca 600ml",
-        "preco": "0.00",
+        "preco": "7.00",
         "estoque": 1000,
         "categoria": "Bebidas",
         "icone": "fa-solid fa-bottle-water",
@@ -245,7 +245,7 @@
     {
         "id": 28,
         "nome": "Coca 1L",
-        "preco": "0.00",
+        "preco": "10.00",
         "estoque": 1000,
         "categoria": "Bebidas",
         "icone": "fa-solid fa-bottle-water",
@@ -254,7 +254,7 @@
     {
         "id": 29,
         "nome": "Coca 2L",
-        "preco": "0.00",
+        "preco": "15.00",
         "estoque": 1000,
         "categoria": "Bebidas",
         "icone": "fa-solid fa-bottle-water",
@@ -263,7 +263,7 @@
     {
         "id": 30,
         "nome": "Guaraná 1L",
-        "preco": "0.00",
+        "preco": "8.00",
         "estoque": 1000,
         "categoria": "Bebidas",
         "icone": "fa-solid fa-bottle-water",
@@ -272,7 +272,7 @@
     {
         "id": 31,
         "nome": "Guaraná 2L",
-        "preco": "0.00",
+        "preco": "10.00",
         "estoque": 1000,
         "categoria": "Bebidas",
         "icone": "fa-solid fa-bottle-water",
@@ -281,7 +281,7 @@
     {
         "id": 32,
         "nome": "Sukita 600ml",
-        "preco": "0.00",
+        "preco": 6.00",
         "estoque": 1000,
         "categoria": "Bebidas",
         "icone": "fa-solid fa-bottle-water",
@@ -290,7 +290,7 @@
     {
         "id": 33,
         "nome": "Tônica Lata",
-        "preco": "0.00",
+        "preco": "5.00",
         "estoque": 1000,
         "categoria": "Bebidas",
         "icone": "fa-solid fa-bottle-water",
@@ -299,7 +299,7 @@
     {
         "id": 34,
         "nome": "Gatorede",
-        "preco": "0.00",
+        "preco": "8.00",
         "estoque": 1000,
         "categoria": "Bebidas",
         "icone": "fa-solid fa-bottle-water",
@@ -308,7 +308,7 @@
     {
         "id": 35,
         "nome": "H2O",
-        "preco": "0.00",
+        "preco": "6.00",
         "estoque": 1000,
         "categoria": "Bebidas",
         "icone": "fa-solid fa-bottle-water",
@@ -317,7 +317,7 @@
     {
         "id": 36,
         "nome": "Suco 1L",
-        "preco": "0.00",
+        "preco": "8.00",
         "estoque": 1000,
         "categoria": "Bebidas",
         "icone": "fa-solid fa-bottle-water",
@@ -326,7 +326,7 @@
     {
         "id": 37,
         "nome": "Água de Coco",
-        "preco": "0.00",
+        "preco": "12.00",
         "estoque": 1000,
         "categoria": "Bebidas",
         "icone": "fa-solid fa-bottle-water",
@@ -335,7 +335,7 @@
     {
         "id": 38,
         "nome": "Monster",
-        "preco": "0.00",
+        "preco": "12.00",
         "estoque": 1000,
         "categoria": "Bebidas",
         "icone": "fa-solid fa-bottle-water",
@@ -344,7 +344,7 @@
     {
         "id": 39,
         "nome": "Redbull",
-        "preco": "0.00",
+        "preco": "12.00",
         "estoque": 1000,
         "categoria": "Bebidas",
         "icone": "fa-solid fa-bottle-water",
@@ -353,7 +353,7 @@
     {
         "id": 40,
         "nome": "FireNigth",
-        "preco": "0.00",
+        "preco": 10.00",
         "estoque": 1000,
         "categoria": "Bebidas",
         "icone": "fa-solid fa-bottle-water",
@@ -371,7 +371,7 @@
     {
         "id": 42,
         "nome": "Ballantines",
-        "preco": "4.00",
+        "preco": "10.00",
         "estoque": 1000,
         "categoria": "Dose",
         "icone": "fa-solid fa-whiskey-glass",
@@ -380,7 +380,7 @@
     {
         "id": 43,
         "nome": "Passaporte",
-        "preco": "4.00",
+        "preco": "10.00",
         "estoque": 1000,
         "categoria": "Dose",
         "icone": "fa-solid fa-whiskey-glass",
@@ -389,7 +389,7 @@
     {
         "id": 44,
         "nome": "Montila",
-        "preco": "4.00",
+        "preco": "5.00",
         "estoque": 1000,
         "categoria": "Dose",
         "icone": "fa-solid fa-whiskey-glass",
@@ -398,7 +398,7 @@
     {
         "id": 45,
         "nome": "Jurupinga",
-        "preco": "4.00",
+        "preco": "5.00",
         "estoque": 1000,
         "categoria": "Dose",
         "icone": "fa-solid fa-whiskey-glass",
@@ -407,7 +407,7 @@
     {
         "id": 46,
         "nome": "José Cuervo",
-        "preco": "4.00",
+        "preco": "10.00",
         "estoque": 1000,
         "categoria": "Dose",
         "icone": "fa-solid fa-whiskey-glass",
@@ -416,7 +416,7 @@
     {
         "id": 47,
         "nome": "Paratudo",
-        "preco": "4.00",
+        "preco": "5.00",
         "estoque": 1000,
         "categoria": "Dose",
         "icone": "fa-solid fa-whiskey-glass",
@@ -425,7 +425,7 @@
     {
         "id": 48,
         "nome": "Domus",
-        "preco": "4.00",
+        "preco": "5.00",
         "estoque": 1000,
         "categoria": "Dose",
         "icone": "fa-solid fa-whiskey-glass",
