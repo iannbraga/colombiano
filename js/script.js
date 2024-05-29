@@ -51,7 +51,7 @@ $(document).ready(function () {
                                     : 
                                     `<i class="${produto.icone} fa-3x mb-3 mt-5 pt-5"></i>`}
                                 <h6 class="card-title ${produto.image ? '' : 'mt-5 pt-2'}">${produto.nome}</h6>
-                                <p class="badge bg-success card-text">R$ ${produto.preco}</p>
+                                <p class="badge bg-success card-text fs-sm-2">R$ ${produto.preco}</p>
                             </div>
                         </div>
                     </div>
